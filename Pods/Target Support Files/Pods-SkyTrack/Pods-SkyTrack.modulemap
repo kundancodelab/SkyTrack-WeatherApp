@@ -1,0 +1,6 @@
+framework module Pods_SkyTrack {
+  umbrella header "Pods-SkyTrack-umbrella.h"
+
+  export *
+  module * { export * }
+}

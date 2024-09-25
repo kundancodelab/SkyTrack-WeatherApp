@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B687ED755E664CB06E77EE4 /* Pods_SkyTrackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97919446116A87392635E7BF /* Pods_SkyTrackTests.framework */; };
+		C5A6821A9E41EC1E59EC2FA9 /* Pods_SkyTrack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945D8DFA1D4CD169D845D1F5 /* Pods_SkyTrack.framework */; };
+		CEA012EF2C9F438E0075DEA8 /* LetStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA012D92C9F438E0075DEA8 /* LetStartViewController.swift */; };
+		CEA012F02C9F438E0075DEA8 /* NetworkErrorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA012DA2C9F438E0075DEA8 /* NetworkErrorVC.swift */; };
+		CEA012F12C9F438E0075DEA8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA012DB2C9F438E0075DEA8 /* SearchViewController.swift */; };
+		CEA012F22C9F438E0075DEA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA012DC2C9F438E0075DEA8 /* ViewController.swift */; };
+		CEA012F32C9F438E0075DEA8 /* WeatherEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA012DD2C9F438E0075DEA8 /* WeatherEntryViewController.swift */; };
+		CEA012F42C9F438E0075DEA8 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA012DE2C9F438E0075DEA8 /* WeatherViewController.swift */; };
+		CEA012F52C9F438E0075DEA8 /* SharedFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA012E02C9F438E0075DEA8 /* SharedFunction.swift */; };
+		CEA012F62C9F438E0075DEA8 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA012E12C9F438E0075DEA8 /* WeatherData.swift */; };
+		CEA012F72C9F438E0075DEA8 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA012E22C9F438E0075DEA8 /* WeatherManager.swift */; };
+		CEA012F82C9F438E0075DEA8 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA012E32C9F438E0075DEA8 /* WeatherModel.swift */; };
+		CEA012F92C9F438E0075DEA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA012E82C9F438E0075DEA8 /* AppDelegate.swift */; };
+		CEA012FA2C9F438E0075DEA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA012ED2C9F438E0075DEA8 /* SceneDelegate.swift */; };
+		CEA012FB2C9F438E0075DEA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA012E62C9F438E0075DEA8 /* Main.storyboard */; };
+		CEA012FC2C9F438E0075DEA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA012E92C9F438E0075DEA8 /* Assets.xcassets */; };
+		CEA012FE2C9F438E0075DEA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA012EC2C9F438E0075DEA8 /* LaunchScreen.storyboard */; };
+		CED4CA442CA3C620004E63CF /* SkyTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4CA422CA3C620004E63CF /* SkyTrackTests.swift */; };
+		CED4CA482CA3C646004E63CF /* SkyTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4CA452CA3C646004E63CF /* SkyTrackUITests.swift */; };
+		CED4CA492CA3C646004E63CF /* SkyTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4CA462CA3C646004E63CF /* SkyTrackUITestsLaunchTests.swift */; };
+		D2E49A0D2DA761B7C52AA5DC /* Pods_SkyTrack_SkyTrackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A19B569E4AD2CE64EB3D36 /* Pods_SkyTrack_SkyTrackUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE6C69AD2C9F1207009AF8C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6C698E2C9F1206009AF8C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6C69952C9F1206009AF8C5;
+			remoteInfo = SkyTrack;
+		};
+		CE6C69B72C9F1207009AF8C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6C698E2C9F1206009AF8C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6C69952C9F1206009AF8C5;
+			remoteInfo = SkyTrack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36724161CA6A8F03B59A8EE7 /* Pods-SkyTrackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyTrackTests.debug.xcconfig"; path = "Target Support Files/Pods-SkyTrackTests/Pods-SkyTrackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F591752103A685FC4CDCC31 /* Pods-SkyTrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyTrack.debug.xcconfig"; path = "Target Support Files/Pods-SkyTrack/Pods-SkyTrack.debug.xcconfig"; sourceTree = "<group>"; };
+		711E3B7E28F65FE2CCDBF74B /* Pods-SkyTrack-SkyTrackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyTrack-SkyTrackUITests.debug.xcconfig"; path = "Target Support Files/Pods-SkyTrack-SkyTrackUITests/Pods-SkyTrack-SkyTrackUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B950527E818F1633A3D151D /* Pods-SkyTrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyTrack.release.xcconfig"; path = "Target Support Files/Pods-SkyTrack/Pods-SkyTrack.release.xcconfig"; sourceTree = "<group>"; };
+		806D97D381BAE86DB000AA0F /* Pods-SkyTrack-SkyTrackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyTrack-SkyTrackUITests.release.xcconfig"; path = "Target Support Files/Pods-SkyTrack-SkyTrackUITests/Pods-SkyTrack-SkyTrackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		90F3D212A34FA58573D67570 /* Pods-SkyTrackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyTrackTests.release.xcconfig"; path = "Target Support Files/Pods-SkyTrackTests/Pods-SkyTrackTests.release.xcconfig"; sourceTree = "<group>"; };
+		945D8DFA1D4CD169D845D1F5 /* Pods_SkyTrack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyTrack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97919446116A87392635E7BF /* Pods_SkyTrackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyTrackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6C69962C9F1206009AF8C5 /* SkyTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6C69AC2C9F1207009AF8C5 /* SkyTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6C69B62C9F1207009AF8C5 /* SkyTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA012D92C9F438E0075DEA8 /* LetStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetStartViewController.swift; sourceTree = "<group>"; };
+		CEA012DA2C9F438E0075DEA8 /* NetworkErrorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorVC.swift; sourceTree = "<group>"; };
+		CEA012DB2C9F438E0075DEA8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CEA012DC2C9F438E0075DEA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEA012DD2C9F438E0075DEA8 /* WeatherEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherEntryViewController.swift; sourceTree = "<group>"; };
+		CEA012DE2C9F438E0075DEA8 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		CEA012E02C9F438E0075DEA8 /* SharedFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFunction.swift; sourceTree = "<group>"; };
+		CEA012E12C9F438E0075DEA8 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		CEA012E22C9F438E0075DEA8 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		CEA012E32C9F438E0075DEA8 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		CEA012E52C9F438E0075DEA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA012E82C9F438E0075DEA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA012E92C9F438E0075DEA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA012EA2C9F438E0075DEA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA012EB2C9F438E0075DEA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA012ED2C9F438E0075DEA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CED4CA422CA3C620004E63CF /* SkyTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyTrackTests.swift; sourceTree = "<group>"; };
+		CED4CA452CA3C646004E63CF /* SkyTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyTrackUITests.swift; sourceTree = "<group>"; };
+		CED4CA462CA3C646004E63CF /* SkyTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8A19B569E4AD2CE64EB3D36 /* Pods_SkyTrack_SkyTrackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyTrack_SkyTrackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6C69932C9F1206009AF8C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A6821A9E41EC1E59EC2FA9 /* Pods_SkyTrack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6C69A92C9F1207009AF8C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B687ED755E664CB06E77EE4 /* Pods_SkyTrackTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6C69B32C9F1207009AF8C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E49A0D2DA761B7C52AA5DC /* Pods_SkyTrack_SkyTrackUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		958C386ED87680DCF1C1F420 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				945D8DFA1D4CD169D845D1F5 /* Pods_SkyTrack.framework */,
+				F8A19B569E4AD2CE64EB3D36 /* Pods_SkyTrack_SkyTrackUITests.framework */,
+				97919446116A87392635E7BF /* Pods_SkyTrackTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE6C698D2C9F1206009AF8C5 = {
+			isa = PBXGroup;
+			children = (
+				CEA012EE2C9F438E0075DEA8 /* SkyTrack */,
+				CE6C69972C9F1206009AF8C5 /* Products */,
+				E6C30BF20BAA6C8DA229F7B1 /* Pods */,
+				CED4CA432CA3C620004E63CF /* SkyTrackTests */,
+				CED4CA472CA3C646004E63CF /* SkyTrackUITests */,
+				958C386ED87680DCF1C1F420 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6C69972C9F1206009AF8C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6C69962C9F1206009AF8C5 /* SkyTrack.app */,
+				CE6C69AC2C9F1207009AF8C5 /* SkyTrackTests.xctest */,
+				CE6C69B62C9F1207009AF8C5 /* SkyTrackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA012DF2C9F438E0075DEA8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEA012D92C9F438E0075DEA8 /* LetStartViewController.swift */,
+				CEA012DA2C9F438E0075DEA8 /* NetworkErrorVC.swift */,
+				CEA012DB2C9F438E0075DEA8 /* SearchViewController.swift */,
+				CEA012DC2C9F438E0075DEA8 /* ViewController.swift */,
+				CEA012DD2C9F438E0075DEA8 /* WeatherEntryViewController.swift */,
+				CEA012DE2C9F438E0075DEA8 /* WeatherViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEA012E42C9F438E0075DEA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEA012E02C9F438E0075DEA8 /* SharedFunction.swift */,
+				CEA012E12C9F438E0075DEA8 /* WeatherData.swift */,
+				CEA012E22C9F438E0075DEA8 /* WeatherManager.swift */,
+				CEA012E32C9F438E0075DEA8 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEA012E72C9F438E0075DEA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEA012E62C9F438E0075DEA8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEA012EE2C9F438E0075DEA8 /* SkyTrack */ = {
+			isa = PBXGroup;
+			children = (
+				CEA012DF2C9F438E0075DEA8 /* Controller */,
+				CEA012E42C9F438E0075DEA8 /* Model */,
+				CEA012E72C9F438E0075DEA8 /* View */,
+				CEA012E82C9F438E0075DEA8 /* AppDelegate.swift */,
+				CEA012E92C9F438E0075DEA8 /* Assets.xcassets */,
+				CEA012EA2C9F438E0075DEA8 /* Info.plist */,
+				CEA012EC2C9F438E0075DEA8 /* LaunchScreen.storyboard */,
+				CEA012ED2C9F438E0075DEA8 /* SceneDelegate.swift */,
+			);
+			path = SkyTrack;
+			sourceTree = "<group>";
+		};
+		CED4CA432CA3C620004E63CF /* SkyTrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED4CA422CA3C620004E63CF /* SkyTrackTests.swift */,
+			);
+			path = SkyTrackTests;
+			sourceTree = "<group>";
+		};
+		CED4CA472CA3C646004E63CF /* SkyTrackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CED4CA452CA3C646004E63CF /* SkyTrackUITests.swift */,
+				CED4CA462CA3C646004E63CF /* SkyTrackUITestsLaunchTests.swift */,
+			);
+			path = SkyTrackUITests;
+			sourceTree = "<group>";
+		};
+		E6C30BF20BAA6C8DA229F7B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F591752103A685FC4CDCC31 /* Pods-SkyTrack.debug.xcconfig */,
+				7B950527E818F1633A3D151D /* Pods-SkyTrack.release.xcconfig */,
+				711E3B7E28F65FE2CCDBF74B /* Pods-SkyTrack-SkyTrackUITests.debug.xcconfig */,
+				806D97D381BAE86DB000AA0F /* Pods-SkyTrack-SkyTrackUITests.release.xcconfig */,
+				36724161CA6A8F03B59A8EE7 /* Pods-SkyTrackTests.debug.xcconfig */,
+				90F3D212A34FA58573D67570 /* Pods-SkyTrackTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6C69952C9F1206009AF8C5 /* SkyTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6C69BF2C9F1207009AF8C5 /* Build configuration list for PBXNativeTarget "SkyTrack" */;
+			buildPhases = (
+				4ECA7300A66586B9225BE346 /* [CP] Check Pods Manifest.lock */,
+				CE6C69922C9F1206009AF8C5 /* Sources */,
+				CE6C69932C9F1206009AF8C5 /* Frameworks */,
+				CE6C69942C9F1206009AF8C5 /* Resources */,
+				AB77EA90BB84BA7C67F379A5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyTrack;
+			productName = SkyTrack;
+			productReference = CE6C69962C9F1206009AF8C5 /* SkyTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE6C69AB2C9F1207009AF8C5 /* SkyTrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6C69C42C9F1207009AF8C5 /* Build configuration list for PBXNativeTarget "SkyTrackTests" */;
+			buildPhases = (
+				295BF3A080870094457842E7 /* [CP] Check Pods Manifest.lock */,
+				CE6C69A82C9F1207009AF8C5 /* Sources */,
+				CE6C69A92C9F1207009AF8C5 /* Frameworks */,
+				CE6C69AA2C9F1207009AF8C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6C69AE2C9F1207009AF8C5 /* PBXTargetDependency */,
+			);
+			name = SkyTrackTests;
+			productName = SkyTrackTests;
+			productReference = CE6C69AC2C9F1207009AF8C5 /* SkyTrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE6C69B52C9F1207009AF8C5 /* SkyTrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6C69C72C9F1207009AF8C5 /* Build configuration list for PBXNativeTarget "SkyTrackUITests" */;
+			buildPhases = (
+				79B11FF9F66ED2AB60ED93FD /* [CP] Check Pods Manifest.lock */,
+				CE6C69B22C9F1207009AF8C5 /* Sources */,
+				CE6C69B32C9F1207009AF8C5 /* Frameworks */,
+				CE6C69B42C9F1207009AF8C5 /* Resources */,
+				0AF9B0C3835DE97515E1E07C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6C69B82C9F1207009AF8C5 /* PBXTargetDependency */,
+			);
+			name = SkyTrackUITests;
+			productName = SkyTrackUITests;
+			productReference = CE6C69B62C9F1207009AF8C5 /* SkyTrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6C698E2C9F1206009AF8C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					CE6C69952C9F1206009AF8C5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					CE6C69AB2C9F1207009AF8C5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CE6C69952C9F1206009AF8C5;
+					};
+					CE6C69B52C9F1207009AF8C5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CE6C69952C9F1206009AF8C5;
+					};
+				};
+			};
+			buildConfigurationList = CE6C69912C9F1206009AF8C5 /* Build configuration list for PBXProject "SkyTrack" */;
+			compatibilityVersion = "Xcode 15.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE6C698D2C9F1206009AF8C5;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = CE6C69972C9F1206009AF8C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6C69952C9F1206009AF8C5 /* SkyTrack */,
+				CE6C69AB2C9F1207009AF8C5 /* SkyTrackTests */,
+				CE6C69B52C9F1207009AF8C5 /* SkyTrackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6C69942C9F1206009AF8C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA012FB2C9F438E0075DEA8 /* Main.storyboard in Resources */,
+				CEA012FC2C9F438E0075DEA8 /* Assets.xcassets in Resources */,
+				CEA012FE2C9F438E0075DEA8 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6C69AA2C9F1207009AF8C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6C69B42C9F1207009AF8C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AF9B0C3835DE97515E1E07C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyTrack-SkyTrackUITests/Pods-SkyTrack-SkyTrackUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyTrack-SkyTrackUITests/Pods-SkyTrack-SkyTrackUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkyTrack-SkyTrackUITests/Pods-SkyTrack-SkyTrackUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		295BF3A080870094457842E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyTrackTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ECA7300A66586B9225BE346 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyTrack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79B11FF9F66ED2AB60ED93FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkyTrack-SkyTrackUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB77EA90BB84BA7C67F379A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyTrack/Pods-SkyTrack-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkyTrack/Pods-SkyTrack-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkyTrack/Pods-SkyTrack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6C69922C9F1206009AF8C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA012EF2C9F438E0075DEA8 /* LetStartViewController.swift in Sources */,
+				CEA012F02C9F438E0075DEA8 /* NetworkErrorVC.swift in Sources */,
+				CEA012F12C9F438E0075DEA8 /* SearchViewController.swift in Sources */,
+				CEA012F22C9F438E0075DEA8 /* ViewController.swift in Sources */,
+				CEA012F32C9F438E0075DEA8 /* WeatherEntryViewController.swift in Sources */,
+				CEA012F42C9F438E0075DEA8 /* WeatherViewController.swift in Sources */,
+				CEA012F52C9F438E0075DEA8 /* SharedFunction.swift in Sources */,
+				CEA012F62C9F438E0075DEA8 /* WeatherData.swift in Sources */,
+				CEA012F72C9F438E0075DEA8 /* WeatherManager.swift in Sources */,
+				CEA012F82C9F438E0075DEA8 /* WeatherModel.swift in Sources */,
+				CEA012F92C9F438E0075DEA8 /* AppDelegate.swift in Sources */,
+				CEA012FA2C9F438E0075DEA8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6C69A82C9F1207009AF8C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED4CA442CA3C620004E63CF /* SkyTrackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6C69B22C9F1207009AF8C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED4CA482CA3C646004E63CF /* SkyTrackUITests.swift in Sources */,
+				CED4CA492CA3C646004E63CF /* SkyTrackUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE6C69AE2C9F1207009AF8C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6C69952C9F1206009AF8C5 /* SkyTrack */;
+			targetProxy = CE6C69AD2C9F1207009AF8C5 /* PBXContainerItemProxy */;
+		};
+		CE6C69B82C9F1207009AF8C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6C69952C9F1206009AF8C5 /* SkyTrack */;
+			targetProxy = CE6C69B72C9F1207009AF8C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEA012E62C9F438E0075DEA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA012E52C9F438E0075DEA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA012EC2C9F438E0075DEA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA012EB2C9F438E0075DEA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6C69C02C9F1207009AF8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F591752103A685FC4CDCC31 /* Pods-SkyTrack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkyTrack/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iosdevkundan.SkyTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE6C69C12C9F1207009AF8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B950527E818F1633A3D151D /* Pods-SkyTrack.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkyTrack/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iosdevkundan.SkyTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE6C69C22C9F1207009AF8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE6C69C32C9F1207009AF8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE6C69C52C9F1207009AF8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36724161CA6A8F03B59A8EE7 /* Pods-SkyTrackTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iosdevkundan.SkyTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkyTrack";
+			};
+			name = Debug;
+		};
+		CE6C69C62C9F1207009AF8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F3D212A34FA58573D67570 /* Pods-SkyTrackTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iosdevkundan.SkyTrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkyTrack";
+			};
+			name = Release;
+		};
+		CE6C69C82C9F1207009AF8C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711E3B7E28F65FE2CCDBF74B /* Pods-SkyTrack-SkyTrackUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iosdevkundan.SkyTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkyTrack;
+			};
+			name = Debug;
+		};
+		CE6C69C92C9F1207009AF8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 806D97D381BAE86DB000AA0F /* Pods-SkyTrack-SkyTrackUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iosdevkundan.SkyTrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkyTrack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6C69912C9F1206009AF8C5 /* Build configuration list for PBXProject "SkyTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6C69C22C9F1207009AF8C5 /* Debug */,
+				CE6C69C32C9F1207009AF8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6C69BF2C9F1207009AF8C5 /* Build configuration list for PBXNativeTarget "SkyTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6C69C02C9F1207009AF8C5 /* Debug */,
+				CE6C69C12C9F1207009AF8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6C69C42C9F1207009AF8C5 /* Build configuration list for PBXNativeTarget "SkyTrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6C69C52C9F1207009AF8C5 /* Debug */,
+				CE6C69C62C9F1207009AF8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6C69C72C9F1207009AF8C5 /* Build configuration list for PBXNativeTarget "SkyTrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6C69C82C9F1207009AF8C5 /* Debug */,
+				CE6C69C92C9F1207009AF8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE6C698E2C9F1206009AF8C5 /* Project object */;
+}
